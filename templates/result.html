@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <title>نتیجه ثبت</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: sans-serif; direction: rtl; max-width: 600px; margin: auto; padding: 20px; }
+        .box { background: #f0f0f0; padding: 15px; border-radius: 10px; margin-top: 20px; }
+    </style>
+</head>
+<body>
+    <h2>✅ اطلاعات ثبت شد</h2>
+
+    <div class="box">
+        <p>📅 تاریخ: {{ date }}</p>
+        <p>🍑 نوع میوه: {{ fruit }}</p>
+        <p>⚖️ وزن: {{ weight }} کیلو</p>
+        <p>💰 فی هر کیلو: {{ price }} تومان</p>
+        <p>🧊 سردخانه: {{ coldstore }}</p>
+        <p>⚖️ مبلغ باسکول: {{ scale_fee }} تومان</p>
+        <hr>
+        <p>💵 مبلغ فروش کل: {{ total_price }} تومان</p>
+        <p>💸 خالص دریافتی: <strong>{{ net_price }}</strong> تومان</p>
+    </div>
+</body>
+</html>

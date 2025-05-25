@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font-family: DejaVu Sans, sans-serif;
+      direction: rtl;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #888;
+      padding: 6px;
+      font-size: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+  <h3 style="text-align:center;">📋 گزارش فاکتورها</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>تاریخ</th>
+        <th>نوع میوه</th>
+        <th>وزن</th>
+        <th>تعداد جعبه</th>
+        <th>فی</th>
+        <th>جمع فروش</th>
+        <th>سردخانه</th>
+        <th>هزینه باسکول</th>
+        <th>خالص دریافتی</th>
+        <th>پلاک</th>
+        <th>راننده</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for sale in sales %}
+      <tr>
+        <td>{{ sale[1] }}</td>
+        <td>{{ sale[2] }}</td>
+        <td>{{ sale[3] }}</td>
+        <td>{{ sale[11] }}</td>
+        <td>{{ sale[4] }}</td>
+        <td>{{ sale[5] }}</td>
+        <td>{{ sale[6] }}</td>
+        <td>{{ sale[7] }}</td>
+        <td>{{ sale[8] }}</td>
+        <td>{{ sale[9] }}</td>
+        <td>{{ sale[10] }}</td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</body>
+</html>

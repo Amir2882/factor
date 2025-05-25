@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <title>گزارش آماری</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📊 گزارش آماری</h2>
+    <table>
+      <tr>
+        <th>📅 ماه</th>
+        <th>💵 جمع فروش</th>
+        <th>💸 خالص دریافتی</th>
+      </tr>
+      {% for row in monthly_data %}
+      <tr>
+        <td>{{ row[0] }}</td>
+        <td>{{ "{:,}".format(row[1]) }} تومان</td>
+        <td>{{ "{:,}".format(row[2]) }} تومان</td>
+      </tr>
+      {% endfor %}
+    </table>
+    <br>
+    <a href="/">بازگشت</a>
+  </div>
+</body>
+</html>
