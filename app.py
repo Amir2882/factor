@@ -149,4 +149,5 @@ def download_pdf():
     return response
 
 if __name__ == '__main__':
+    print("i'm arash")
     app.run(debug=True)
