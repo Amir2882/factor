@@ -1,3 +1,6 @@
+<div align="center">
+  <img src="factor-banner.png" width="100%">
+</div>
 # 🍎 Factor
 ### Fruit Sales & Invoice Management System
 
