@@ -1,10 +1,15 @@
-### 🚀 Featured Project
+### 🍎 Factor — Fruit Sales Management System
 
-#### 🍎 Factor — Fruit Sales Management System
+A personal software project currently under development.
 
-A web-based application built with Python and Flask
-to manage daily fruit sales, invoices, and financial records.
+Factor is a local web-based application designed to manage fruit sales, daily transactions, and invoices.
 
-**Technologies:** Python | Flask | SQLite | HTML | CSS
+**Technologies**
+- Python
+- Flask
+- SQLite
+- HTML & CSS
 
-[View Project →](https://github.com/AmirAzarinia/factor)
+**Project Status:** 🚧 Work in Progress
+
+[Explore the Source Code](https://github.com/AmirAzarinia/factor)
